@@ -19,7 +19,6 @@ runs:
       run: |
         /usr/bin/pacman --noconfirm -S mingw-w64-clang-x86_64-snappy mingw-w64-clang-x86_64-protobuf
         cat <<EOF >> $GITHUB_ENV
-        LIBRARY_PATH=C:/msys64/clang64/lib
         CPATH=C:/msys64/clang64/include
         EOF
         echo 'C:\msys64\clang64\bin' >> $GITHUB_PATH
