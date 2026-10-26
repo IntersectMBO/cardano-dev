@@ -1,0 +1,6 @@
+project: grpc-deps
+pr: 53
+kind:
+  - maintenance
+description: |
+  Do not set the LIBRARY_PATH environment variable on Windows
