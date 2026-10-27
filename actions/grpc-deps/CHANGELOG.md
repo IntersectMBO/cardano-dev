@@ -1,3 +1,5 @@
+## 0.0.2.1 -- 2026-10-27
+
 ## 0.0.2.0 -- 2026-10-22
 
 - Install the Windows dependencies from MSYS2 CLANG64 instead of MINGW64, matching input-output-hk/actions/base.
