@@ -1,5 +1,0 @@
-description: Reduce unnecessary dependency cache storage use and the risk of dependency rebuilds in pull requests.
-kind:
-- bugfix
-pr: 57
-project: cabal-cache

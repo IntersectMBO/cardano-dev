@@ -1,3 +1,9 @@
+## 0.0.1.1 -- 2026-10-28
+
+- Reduce unnecessary dependency cache storage use and the risk of dependency rebuilds in pull requests.
+  (bugfix)
+  [PR 57](https://github.com/input-output-hk/cardano-dev/pull/57)
+
 ## 0.0.1.0 -- 2026-05-19
 
 - Add cabal-cache action for caching and restoring Cabal dependencies across CI jobs.
