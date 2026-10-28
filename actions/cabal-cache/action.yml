@@ -93,8 +93,9 @@ runs:
       working-directory: ${{ inputs.working-directory }}
       run: cabal build all --enable-tests --only-dependencies
 
-    # Always store the cabal cache.
+    # Store the cabal cache after a miss or a partial match.
     - name: Cache Cabal store
+      if: steps.cache.outputs.cache-hit != 'true'
       uses: actions/cache/save@v4
       with:
         path: |
