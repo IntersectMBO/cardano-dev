@@ -1,0 +1,5 @@
+description: Upgrade actions/cache to v6.1.0 (Node.js 24) to fix the Node.js 20 deprecation warning, and pin it by commit SHA.
+kind:
+- maintenance
+pr: 59
+project: cabal-cache
